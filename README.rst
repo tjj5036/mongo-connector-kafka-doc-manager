@@ -46,10 +46,3 @@ This can be done with::
     ./sbt update
     ./sbt package
     
-Notes
------
-
-Previously this was included as part of the mongo-connector package.
-The purpose of the separation is to encourage users to install plugins
-for mongo-connector with pip as opposed to passing in source files.
-However, it is still possible to do that with this module (see usage).
