@@ -29,6 +29,13 @@ which can be found here::
 
 Attempting to run use this without it will result in an error.
 
+Notes
+-----
+
+When specifying namesapces, the assumption is that the namespace
+will match a topic.
+That means that if a namespace of "foo.bar" is specified, the corresponding
+topic will be "foo-bar" (note the hyphen!).
 
 Tests
 -----
